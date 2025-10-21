@@ -22,6 +22,10 @@ app.use(
 
 const Port = 8080;
 
+app.get("/", (req, res) => {
+  res.send("Servidor funcionando correctamente 🚀");
+});
+
 app.use("/api/auth", authRouter);
 app.use("/api/workspaces", workspaceRouter);
 
