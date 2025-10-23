@@ -8,6 +8,7 @@ export const enviroment = {
   Gmail_user: process.env.Gmail_user,
   PORT: process.env.PORT,
   Mongo_db_conection: process.env.Mongo_db_conccion_string,
+  url_frontend: process.env.url_backend,
   // DB_Host: process.env.DB_Host,
   // DB_Name: process.env.DB_Name,
 };
